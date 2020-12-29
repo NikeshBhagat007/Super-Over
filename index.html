@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket SuperOver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img  src="./assets/CSK.png" alt="CSK" height="150px" width="150px">
+                <span class="name" id="name1"></span>  
+                <div class="row runs" id="team-1-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team-1-score"></span>
+                    <span>-</span>
+                    <span id="team-2-score"></span>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/MUM.png" alt="MUM" height="150px" width="150px">
+                <span class="name" id="name2"></span>
+                <div class="row runs" id="team-2-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <button id="btnStrike" onclick="strikeButton()"></button>
+        </div>
+        <div class="row" id="result"> </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
